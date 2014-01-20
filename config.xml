@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="01234" version="1.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.kupgame.kupnaut" version="1.1">
 
-	<name>TestandoTouch</name>
-	<description>UtilizandoSetinhas</description>
-	<author href="-" email="bknupp.job@gmail.com">Barbara Knupp</author>
+	<name>KupNaut</name>
+	<description>TestandoTouch</description>
+	<author email="bknupp.job@gmail.com">Barbara Knupp</author>
 
 	<gap:platforms>
 		<gap:platform name="ios" />
@@ -19,8 +19,8 @@
 
 	<feature name="http://api.phonegap.com/1.0/network"/>
 	<preference name="orientation" value="default" />
-	<preference name="fullscreen" value="true" />
-	<preference name="target-device" value="universal" />
+	<preference name="fullscreen" value="false" />
+	<preference name="target-device" value="tablet" />
 
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
